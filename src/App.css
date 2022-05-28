@@ -1,0 +1,41 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.QuoteBox {
+  background-color: white;
+  font-size: 18px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 7px 0 #000a;
+  text-shadow: 30px;
+  text-align: center;
+  width: min(400px, 100%);
+  position: relative;
+}
+
+.Quote__btn {
+  display: block;
+  font-size: 20px;
+  width: 40px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  position: relative;
+  left: 100%;
+  transform: translateX(-100%);
+  cursor: pointer;
+  box-shadow: 1px 1px 5px 0 #000a;
+  transition: box-shadow 200ms ease;
+}
+
+.Quote__btn:active {
+  box-shadow: 0 0 0 0 #000a;
+  transition: box-shadow 200ms ease;
+}
+
